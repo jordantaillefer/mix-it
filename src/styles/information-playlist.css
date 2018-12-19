@@ -1,0 +1,59 @@
+.currentVideoPlaylist {
+  color : white;
+  font-size: 0.95em;
+  margin-bottom: 8px;
+}
+.videoPlaylist {
+  color : #ddd;
+  font-size: 0.8em;
+  margin-bottom: 8px;
+}
+.list-title {
+  width: 80%;
+}
+.information {
+  width: 30%;
+  height: 400px;
+}
+.information-circle {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.panel-circle {
+  position: absolute;
+  margin-top: 32px;
+}
+.panel-info-playlist {
+  width: 100%;
+  height: 340px;
+  margin-top: 86px;
+  flex-direction: column;
+  z-index: 0;
+  -webkit-transition: background-color .4s ease-in;
+  -o-transition: background-color .4s ease-in;
+  transition: background-color .4s ease-in;
+}
+.group {
+  text-align: center;
+  margin: auto;
+  margin-bottom:15px;
+  margin-top:15px;
+  width: 80%;
+}
+.add-button, .playlist-title {
+  color : white;
+}
+.panel-list-title, .playlist-title {
+  padding-top: 32px;
+}
+.text-list {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.list-title {
+  width: 300px;
+}

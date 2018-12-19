@@ -1,0 +1,45 @@
+.player-vevo {
+  width: 35%;
+}
+.player-panel {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: border-color .4s ease-in;
+  -o-transition: border-color .4s ease-in;
+  transition: border-color .4s ease-in;
+  background-image: url("../img/fond-loader.png");
+  background-size: 65% 90%;
+  background-repeat: no-repeat;
+    background-position: center;
+
+}
+.player-container {
+  width: 450px;
+}
+.player-information {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 16px;
+  font-size: 0.8em;
+  color : white;
+  min-height: 50px;
+  flex-direction: column;
+  -webkit-transition: background-color .4s ease-in;
+  -o-transition: background-color .4s ease-in;
+  transition: background-color .4s ease-in;
+}
+.information-title {
+  margin-top: 5px;
+}

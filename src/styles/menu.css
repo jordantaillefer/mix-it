@@ -1,0 +1,31 @@
+.panel-menu {
+  /*position: relative;*/
+}
+
+.boutonSetting {
+  position: absolute;
+  left : 25%;
+  top : 7%;
+  background-image: url("../img/mixit-setting.png");
+  background-size: 100% 100%;
+  width: 64px;
+  height: 64px;
+}
+.boutonDrinkIt {
+  position: absolute;
+  right: 25%;
+  top: 7%;
+  background-image: url("../img/drinkit-logo.png");
+  background-size: 100% 100%;
+  width: 64px;
+  height: 64px;
+}
+.boutonLogo {
+  position: absolute;
+  left: 45%;
+  top: 4%;
+  background-image: url("../img/mixit-logo.png");
+  background-size: 100% 100%;
+  width: 128px;
+  height: 128px;
+}

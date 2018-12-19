@@ -1,0 +1,23 @@
+.bottom {
+  width: 100%;
+  height: 32px;
+  color : pink;
+  position: relative;
+}
+.playerProgress1 {
+  position: absolute;
+  left: 0;
+  height: 50%;
+  -webkit-transition: width 1.3s ease-in;
+  -o-transition: width 1.3s ease-in;
+  transition: width 1.3s ease-in;
+}
+.playerProgress2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 50%;
+  -webkit-transition: width 1.3s ease-in;
+  -o-transition: width 1.3s ease-in;
+  transition: width 1.3s ease-in;
+}
